@@ -48,11 +48,11 @@ warnings.filterwarnings("ignore")
 # PATHS (Google Colab)
 # =============================================================================
 DATA_DIR    = "/content/data/processed"
-MODEL_DIR   = "/content/models/efficientnet"
+MODEL_DIR   = "/content/models/efficientnet_v2"
 METRICS_DIR = "/content/results/metrics"
 PLOTS_DIR   = "/content/results/plots"
 DRIVE_DIR   = "/content/drive/MyDrive/food_research"
-BEST_MODEL  = "/content/models/efficientnet/best_model.pth"
+BEST_MODEL  = "/content/models/efficientnet_v2/best_model.pth"
 
 BASELINE_RESULTS = "/content/drive/MyDrive/food_research/results/baseline_results.json"
 
