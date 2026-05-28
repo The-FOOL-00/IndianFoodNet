@@ -320,7 +320,7 @@ def train_model():
             print(f"  [CKPT] Best model saved (val_acc={best_val_acc:.4f})")
             backup_to_drive(BEST_MODEL,
                             os.path.join(DRIVE_DIR, "models"),
-                            "best_model_efficientnet.pth")
+                            "best_model_efficientnet_v2.pth")
 
     # -------------------------------------------------------------------------
     # STAGE 2: Full Fine-Tuning (epochs 11–30)
@@ -380,7 +380,7 @@ def train_model():
             print(f"  [CKPT] Best model saved (val_acc={best_val_acc_s2:.4f})")
             backup_to_drive(BEST_MODEL,
                             os.path.join(DRIVE_DIR, "models"),
-                            "best_model_efficientnet.pth")
+                            "best_model_efficientnet_v2.pth")
         else:
             early_stop_ctr += 1
             print(f"  [EARLY STOP] No improvement for {early_stop_ctr}/{EARLY_STOP_PAT} epochs")
