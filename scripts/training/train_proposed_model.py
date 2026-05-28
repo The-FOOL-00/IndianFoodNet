@@ -42,6 +42,8 @@ from sklearn.metrics import (
 
 warnings.filterwarnings("ignore")
 
+
+
 # =============================================================================
 # PATHS (Google Colab)
 # =============================================================================
@@ -287,7 +289,7 @@ def train_model():
         lr=LR_STAGE1
     )
     scheduler_s1  = optim.lr_scheduler.ReduceLROnPlateau(
-        optimizer_s1, mode="min", factor=0.5, patience=3, verbose=True
+        optimizer_s1, mode="min", factor=0.5, patience=3
     )
 
     for epoch in range(1, STAGE1_EPOCHS + 1):
@@ -342,7 +344,7 @@ def train_model():
     )
     # ReduceLROnPlateau: halve lr if val_loss stagnates for 5 epochs
     scheduler_s2 = optim.lr_scheduler.ReduceLROnPlateau(
-        optimizer_s2, mode="min", factor=0.5, patience=5, verbose=True
+        optimizer_s2, mode="min", factor=0.5, patience=5
     )
 
     best_val_acc_s2 = best_val_acc  # carry over from Stage 1
