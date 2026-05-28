@@ -480,7 +480,7 @@ def evaluate_on_test(model, test_loader, class_to_idx, training_time, total_para
     # Backup metrics to Drive
     backup_to_drive(metrics_path,
                     os.path.join(DRIVE_DIR, "results"),
-                    "proposed_results.json")
+                    "proposed_results_v2.json")
 
     print(f"\n[EVAL] Test Accuracy : {accuracy:.4f}")
     print(f"[EVAL] Macro F1      : {f1_macro:.4f}")
@@ -519,7 +519,8 @@ def plot_accuracy(history):
     fig.savefig(path, dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"[PLOT] Accuracy plot → {path}")
-    backup_to_drive(path, os.path.join(DRIVE_DIR, "results", "plots"))
+    backup_to_drive(path, os.path.join(DRIVE_DIR, "results", "plots"),
+                    "proposed_accuracy_v2.png")
     return path
 
 
@@ -546,7 +547,8 @@ def plot_loss(history):
     fig.savefig(path, dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"[PLOT] Loss plot → {path}")
-    backup_to_drive(path, os.path.join(DRIVE_DIR, "results", "plots"))
+    backup_to_drive(path, os.path.join(DRIVE_DIR, "results", "plots"),
+                    "proposed_loss_v2.png")
     return path
 
 
@@ -578,7 +580,8 @@ def plot_confusion_matrix(cm):
     fig.savefig(path, dpi=150, bbox_inches="tight")
     plt.close(fig)
     print(f"[PLOT] Confusion matrix → {path}")
-    backup_to_drive(path, os.path.join(DRIVE_DIR, "results", "plots"))
+    backup_to_drive(path, os.path.join(DRIVE_DIR, "results", "plots"),
+                    "proposed_confusion_v2.png")
     return path
 
 
