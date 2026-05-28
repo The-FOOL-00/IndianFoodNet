@@ -1,0 +1,29 @@
+================================================
+DATASET PREPARATION COMPLETE
+================================================
+Images removed (placeholders): 255
+Remaining images per class:
+  fried:    3184
+  steamed:  3235
+  grilled:  3253
+
+TRAIN SET:
+  fried:    2229
+  steamed:  2264
+  grilled:  2277
+  total:    6770
+
+VAL SET:
+  fried:    318
+  steamed:  324
+  grilled:  325
+  total:    967
+
+TEST SET:
+  fried:    637
+  steamed:  647
+  grilled:  651
+  total:    1935
+
+GRAND TOTAL: 9672 images
+================================================

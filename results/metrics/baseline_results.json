@@ -1,0 +1,48 @@
+{
+  "model": "ResNet-50 Baseline (frozen backbone)",
+  "overall_accuracy": 0.8656,
+  "per_class_metrics": {
+    "fried": {
+      "precision": 0.7928,
+      "recall": 0.865,
+      "f1_score": 0.8273
+    },
+    "grilled": {
+      "precision": 0.8964,
+      "recall": 0.8771,
+      "f1_score": 0.8866
+    },
+    "steamed": {
+      "precision": 0.9171,
+      "recall": 0.8547,
+      "f1_score": 0.8848
+    }
+  },
+  "confusion_matrix": [
+    [
+      551,
+      50,
+      36
+    ],
+    [
+      66,
+      571,
+      14
+    ],
+    [
+      78,
+      16,
+      553
+    ]
+  ],
+  "training_time_seconds": 2901.35,
+  "best_val_accuracy": 0.8656,
+  "num_epochs": 20,
+  "batch_size": 32,
+  "learning_rate": 0.001,
+  "class_names": [
+    "fried",
+    "grilled",
+    "steamed"
+  ]
+}

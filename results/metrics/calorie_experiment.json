@@ -1,0 +1,341 @@
+{
+  "summary": {
+    "n_samples": 30,
+    "model_accuracy_pct": 96.67,
+    "baseline_mae": 58.0,
+    "proposed_mae": 5.0667,
+    "improvement_pct": 91.2644
+  },
+  "details": [
+    {
+      "filename": "fried_2886.jpg",
+      "true_method": "fried",
+      "predicted_method": "fried",
+      "correct": true,
+      "ground_truth_cal": 295,
+      "baseline_cal": 200,
+      "proposed_cal": 295,
+      "baseline_error": 95,
+      "proposed_error": 0
+    },
+    {
+      "filename": "fried_3022.jpg",
+      "true_method": "fried",
+      "predicted_method": "fried",
+      "correct": true,
+      "ground_truth_cal": 295,
+      "baseline_cal": 200,
+      "proposed_cal": 295,
+      "baseline_error": 95,
+      "proposed_error": 0
+    },
+    {
+      "filename": "fried_050.jpg",
+      "true_method": "fried",
+      "predicted_method": "fried",
+      "correct": true,
+      "ground_truth_cal": 295,
+      "baseline_cal": 200,
+      "proposed_cal": 295,
+      "baseline_error": 95,
+      "proposed_error": 0
+    },
+    {
+      "filename": "fried_679.jpg",
+      "true_method": "fried",
+      "predicted_method": "fried",
+      "correct": true,
+      "ground_truth_cal": 295,
+      "baseline_cal": 200,
+      "proposed_cal": 295,
+      "baseline_error": 95,
+      "proposed_error": 0
+    },
+    {
+      "filename": "fried_3038.jpg",
+      "true_method": "fried",
+      "predicted_method": "fried",
+      "correct": true,
+      "ground_truth_cal": 295,
+      "baseline_cal": 200,
+      "proposed_cal": 295,
+      "baseline_error": 95,
+      "proposed_error": 0
+    },
+    {
+      "filename": "fried_2544.jpg",
+      "true_method": "fried",
+      "predicted_method": "fried",
+      "correct": true,
+      "ground_truth_cal": 295,
+      "baseline_cal": 200,
+      "proposed_cal": 295,
+      "baseline_error": 95,
+      "proposed_error": 0
+    },
+    {
+      "filename": "fried_427.jpg",
+      "true_method": "fried",
+      "predicted_method": "fried",
+      "correct": true,
+      "ground_truth_cal": 295,
+      "baseline_cal": 200,
+      "proposed_cal": 295,
+      "baseline_error": 95,
+      "proposed_error": 0
+    },
+    {
+      "filename": "fried_2316.jpg",
+      "true_method": "fried",
+      "predicted_method": "fried",
+      "correct": true,
+      "ground_truth_cal": 295,
+      "baseline_cal": 200,
+      "proposed_cal": 295,
+      "baseline_error": 95,
+      "proposed_error": 0
+    },
+    {
+      "filename": "fried_1185.jpg",
+      "true_method": "fried",
+      "predicted_method": "fried",
+      "correct": true,
+      "ground_truth_cal": 295,
+      "baseline_cal": 200,
+      "proposed_cal": 295,
+      "baseline_error": 95,
+      "proposed_error": 0
+    },
+    {
+      "filename": "fried_2996.jpg",
+      "true_method": "fried",
+      "predicted_method": "fried",
+      "correct": true,
+      "ground_truth_cal": 295,
+      "baseline_cal": 200,
+      "proposed_cal": 295,
+      "baseline_error": 95,
+      "proposed_error": 0
+    },
+    {
+      "filename": "steamed_034.jpg",
+      "true_method": "steamed",
+      "predicted_method": "steamed",
+      "correct": true,
+      "ground_truth_cal": 143,
+      "baseline_cal": 200,
+      "proposed_cal": 143,
+      "baseline_error": 57,
+      "proposed_error": 0
+    },
+    {
+      "filename": "steamed_2632.jpg",
+      "true_method": "steamed",
+      "predicted_method": "steamed",
+      "correct": true,
+      "ground_truth_cal": 143,
+      "baseline_cal": 200,
+      "proposed_cal": 143,
+      "baseline_error": 57,
+      "proposed_error": 0
+    },
+    {
+      "filename": "steamed_387.jpg",
+      "true_method": "steamed",
+      "predicted_method": "steamed",
+      "correct": true,
+      "ground_truth_cal": 143,
+      "baseline_cal": 200,
+      "proposed_cal": 143,
+      "baseline_error": 57,
+      "proposed_error": 0
+    },
+    {
+      "filename": "steamed_832.jpg",
+      "true_method": "steamed",
+      "predicted_method": "steamed",
+      "correct": true,
+      "ground_truth_cal": 143,
+      "baseline_cal": 200,
+      "proposed_cal": 143,
+      "baseline_error": 57,
+      "proposed_error": 0
+    },
+    {
+      "filename": "steamed_762.jpg",
+      "true_method": "steamed",
+      "predicted_method": "steamed",
+      "correct": true,
+      "ground_truth_cal": 143,
+      "baseline_cal": 200,
+      "proposed_cal": 143,
+      "baseline_error": 57,
+      "proposed_error": 0
+    },
+    {
+      "filename": "steamed_654.jpg",
+      "true_method": "steamed",
+      "predicted_method": "steamed",
+      "correct": true,
+      "ground_truth_cal": 143,
+      "baseline_cal": 200,
+      "proposed_cal": 143,
+      "baseline_error": 57,
+      "proposed_error": 0
+    },
+    {
+      "filename": "steamed_3147.jpg",
+      "true_method": "steamed",
+      "predicted_method": "steamed",
+      "correct": true,
+      "ground_truth_cal": 143,
+      "baseline_cal": 200,
+      "proposed_cal": 143,
+      "baseline_error": 57,
+      "proposed_error": 0
+    },
+    {
+      "filename": "steamed_1397.jpg",
+      "true_method": "steamed",
+      "predicted_method": "steamed",
+      "correct": true,
+      "ground_truth_cal": 143,
+      "baseline_cal": 200,
+      "proposed_cal": 143,
+      "baseline_error": 57,
+      "proposed_error": 0
+    },
+    {
+      "filename": "steamed_033.jpg",
+      "true_method": "steamed",
+      "predicted_method": "fried",
+      "correct": false,
+      "ground_truth_cal": 143,
+      "baseline_cal": 200,
+      "proposed_cal": 295,
+      "baseline_error": 57,
+      "proposed_error": 152
+    },
+    {
+      "filename": "steamed_1522.jpg",
+      "true_method": "steamed",
+      "predicted_method": "steamed",
+      "correct": true,
+      "ground_truth_cal": 143,
+      "baseline_cal": 200,
+      "proposed_cal": 143,
+      "baseline_error": 57,
+      "proposed_error": 0
+    },
+    {
+      "filename": "grilled_1585.jpg",
+      "true_method": "grilled",
+      "predicted_method": "grilled",
+      "correct": true,
+      "ground_truth_cal": 222,
+      "baseline_cal": 200,
+      "proposed_cal": 222,
+      "baseline_error": 22,
+      "proposed_error": 0
+    },
+    {
+      "filename": "grilled_3272.jpg",
+      "true_method": "grilled",
+      "predicted_method": "grilled",
+      "correct": true,
+      "ground_truth_cal": 222,
+      "baseline_cal": 200,
+      "proposed_cal": 222,
+      "baseline_error": 22,
+      "proposed_error": 0
+    },
+    {
+      "filename": "grilled_1263.jpg",
+      "true_method": "grilled",
+      "predicted_method": "grilled",
+      "correct": true,
+      "ground_truth_cal": 222,
+      "baseline_cal": 200,
+      "proposed_cal": 222,
+      "baseline_error": 22,
+      "proposed_error": 0
+    },
+    {
+      "filename": "grilled_2382.jpg",
+      "true_method": "grilled",
+      "predicted_method": "grilled",
+      "correct": true,
+      "ground_truth_cal": 222,
+      "baseline_cal": 200,
+      "proposed_cal": 222,
+      "baseline_error": 22,
+      "proposed_error": 0
+    },
+    {
+      "filename": "grilled_641.jpg",
+      "true_method": "grilled",
+      "predicted_method": "grilled",
+      "correct": true,
+      "ground_truth_cal": 222,
+      "baseline_cal": 200,
+      "proposed_cal": 222,
+      "baseline_error": 22,
+      "proposed_error": 0
+    },
+    {
+      "filename": "grilled_3289.jpg",
+      "true_method": "grilled",
+      "predicted_method": "grilled",
+      "correct": true,
+      "ground_truth_cal": 222,
+      "baseline_cal": 200,
+      "proposed_cal": 222,
+      "baseline_error": 22,
+      "proposed_error": 0
+    },
+    {
+      "filename": "grilled_3143.jpg",
+      "true_method": "grilled",
+      "predicted_method": "grilled",
+      "correct": true,
+      "ground_truth_cal": 222,
+      "baseline_cal": 200,
+      "proposed_cal": 222,
+      "baseline_error": 22,
+      "proposed_error": 0
+    },
+    {
+      "filename": "grilled_2947.jpg",
+      "true_method": "grilled",
+      "predicted_method": "grilled",
+      "correct": true,
+      "ground_truth_cal": 222,
+      "baseline_cal": 200,
+      "proposed_cal": 222,
+      "baseline_error": 22,
+      "proposed_error": 0
+    },
+    {
+      "filename": "grilled_3018.jpg",
+      "true_method": "grilled",
+      "predicted_method": "grilled",
+      "correct": true,
+      "ground_truth_cal": 222,
+      "baseline_cal": 200,
+      "proposed_cal": 222,
+      "baseline_error": 22,
+      "proposed_error": 0
+    },
+    {
+      "filename": "grilled_2902.jpg",
+      "true_method": "grilled",
+      "predicted_method": "grilled",
+      "correct": true,
+      "ground_truth_cal": 222,
+      "baseline_cal": 200,
+      "proposed_cal": 222,
+      "baseline_error": 22,
+      "proposed_error": 0
+    }
+  ]
+}
